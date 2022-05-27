@@ -1,0 +1,316 @@
+#headbar{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin: 0 6%;
+    margin-top: 2%;
+
+    .mollaimg img{
+        width: 60%;
+    }
+
+    .boxContainer{
+        border: 1px solid lightgray;
+        padding: 0px 10px;
+        width: 600px;
+        height: 50px;
+    }
+    
+    .searchcontainer{
+        width: 100%;
+        height: 100%;
+        a{
+            color: $textcolor;
+        }
+    }
+    .search{
+        width: 100%;
+        height: 100%;
+        padding: 0px 5px;
+        border: none;
+    }
+    .iconbar{
+        display: flex;
+        text-align: center;
+        .iconic{
+            padding: 0 16px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: 0.3s;
+            position: relative;
+            &:hover{
+                color: $textcolorpage;
+            }
+            .number{
+                width: 18px;
+                height: 18px;
+                position: relative;
+                top: -65px;
+                left: 20px;
+                border-radius: 100px;
+                color: white;
+                background-color: $textcolorpage;
+            }
+        }
+    }
+}
+
+#Navbar{
+
+    .burgerMenu{
+        width: 20%;
+        position: relative;
+        z-index: +1;
+        &:hover{
+            .bi-list{  
+              color: white;
+          }
+          .burger{
+              background-color: $textcolorpage;
+              color: white;
+              padding:15px;
+              align-items: center;
+              
+            }
+            .ulnav{
+                display: flex;
+                flex-direction: column;
+                       
+            }
+        }
+        .burger{
+            display: flex;
+            align-items: center;
+            transition: 0.6s;
+            .browse{
+                font-size: 20px;
+                padding-left: 15px;
+            }
+        }
+        
+            ul{
+                position: absolute;
+                z-index: +1;
+                display: none;
+                display: none;
+                list-style: none;
+                list-style-type: none;
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                transition: .3s;
+                
+                >li{
+                background-color: white;
+                border: 1px solid lightgray;
+                padding: 10px 18px;
+                padding-right: 100px;
+    
+                a{
+                    text-decoration: none;
+                    color: rgb(62, 60, 60);
+                    font-weight: 600;
+                    &:hover{
+                            color: $textcolorpage;
+                            
+                        }
+                }
+            }
+            }
+        
+    }
+
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin: 0 6%;
+    padding: 20px 0;
+    border-top: 1px solid lightgray;
+    .kecid ul{
+        display: flex;
+        list-style: none;
+        width: 100%;
+        border-left: 1px solid lightgray;
+        >li{
+            padding: 0 15px;
+            >a{
+                color:$textcolor;
+                font-weight: 600;
+                text-decoration: none;
+                padding-top: 20px;
+                transition: .3s;
+                &:hover{
+                    color: $textcolorpage ;
+                    border-top: 1px solid $textcolorpage;
+                }
+            }
+        }
+    }
+    .navtext{
+    padding-left: 80px;
+    border-left: 1px solid lightgray;
+    height: 25px;
+
+    >span{
+       font-weight: 600;
+       font-size: 15px;
+       align-items: stretch;
+       padding-left: 10px;
+    }
+}
+}
+
+.bgmain{
+    width: 100%;
+    position: relative;
+    .bgimg img{
+        width: 100%;
+        height: 300px;
+    }
+    .bgtext{
+        font-size: 40px;
+        font-weight: 400;
+    position: absolute;
+    top: 100px;
+    left: 770px;
+    text-align: center;
+   .elements{
+       font-size: 20px;
+       color: $textcolorpage;
+   }
+    }
+}
+.hep{
+    display: flex;
+    width: 100%;
+    padding-left: 90px;
+    border-bottom: 1px solid lightgray;
+    p{
+        padding: 18px 5px;
+        
+    }
+}
+.imgicon1{
+    width: 100%;
+    position: relative;
+    transition: .4s;
+    .img1{
+        opacity: 1;
+        position: absolute;
+        >img{
+            height: 400px;
+            width: 100%;
+        }
+    }
+    &:hover{
+        .img1{
+            opacity: 0;
+        }
+    }
+    
+    .img2{
+        opacity: 0;
+        >img{
+            width: 100%;
+            height: 400px;
+        }
+    }
+    &:hover{
+        .img2{
+            opacity: 1;
+        }
+        .selects{
+            opacity: 1;
+           
+        }
+    }
+}
+
+.imgicon2{
+    width: 100%;
+    position: relative;
+    .img1{
+        opacity: 1;
+        position: absolute;
+        >img{
+            width: 100%;
+            height: 300px;
+        }
+    }
+    &:hover{
+        .img1{
+            opacity: 0;
+        }
+    }
+
+    .img2{
+        opacity: 0;
+        >img{
+            width: 100%;
+            height: 300px;
+        }
+    }
+    &:hover{
+        .img2{
+            opacity: 1;
+        }
+    }
+}
+
+.columntext{
+    margin: 40px 0;
+    font-size: 26px;
+    font-weight: 500;
+}
+.imgicon1{
+    position: relative;
+    .selects{
+        opacity: 0;
+        transition: .4s;
+        width: 420px;
+        display: flex;
+        justify-content: space-around;
+        .select{
+            p{ 
+                
+                text-align: center;
+                padding-top: 15px;
+                font-size: 18px;
+                color: $textcolorpage;
+                position: absolute;  
+                width: 210px;
+                height: 60px;
+                background-color: white;
+                border: 1px solid;
+                border: none;
+                top: 345px;
+                transform: translateX(-108px);
+            }
+        }
+        }
+}
+.imgicon{
+    p{
+        color: gray;
+    }
+}
+
+.womentext{
+    text-align: center;
+    b{
+      font-weight: 500;
+    }
+    .money{
+        color: $textcolorpage;
+        font-size: 20px;
+
+    }
+}
+.svgss{
+    text-align: center;
+    .bi-star{
+        color: rgb(238, 238, 22);
+        cursor: pointer;
+    }
+    
+}

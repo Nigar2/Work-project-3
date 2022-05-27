@@ -1,0 +1,380 @@
+#headbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 88%;
+  margin: 0 6%;
+  margin-top: 2%;
+}
+
+#headbar .mollaimg img {
+  width: 60%;
+}
+
+#headbar .boxContainer {
+  border: 1px solid lightgray;
+  padding: 0px 10px;
+  width: 600px;
+  height: 50px;
+}
+
+#headbar .searchcontainer {
+  width: 100%;
+  height: 100%;
+}
+
+#headbar .searchcontainer a {
+  color: black;
+}
+
+#headbar .search {
+  width: 100%;
+  height: 100%;
+  padding: 0px 5px;
+  border: none;
+}
+
+#headbar .iconbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+#headbar .iconbar .iconic {
+  padding: 0 16px;
+  font-size: 13px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+}
+
+#headbar .iconbar .iconic:hover {
+  color: #57a00f;
+}
+
+#headbar .iconbar .iconic .number {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  top: -65px;
+  left: 20px;
+  border-radius: 100px;
+  color: white;
+  background-color: #57a00f;
+}
+
+#Navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 88%;
+  margin: 0 6%;
+  padding: 20px 0;
+  border-top: 1px solid lightgray;
+}
+
+#Navbar .burgerMenu {
+  width: 20%;
+  position: relative;
+  z-index: +1;
+}
+
+#Navbar .burgerMenu:hover .bi-list {
+  color: white;
+}
+
+#Navbar .burgerMenu:hover .burger {
+  background-color: #57a00f;
+  color: white;
+  padding: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Navbar .burgerMenu:hover .ulnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Navbar .burgerMenu .burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+#Navbar .burgerMenu .burger .browse {
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+#Navbar .burgerMenu ul {
+  position: absolute;
+  z-index: +1;
+  display: none;
+  display: none;
+  list-style: none;
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#Navbar .burgerMenu ul > li {
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 10px 18px;
+  padding-right: 100px;
+}
+
+#Navbar .burgerMenu ul > li a {
+  text-decoration: none;
+  color: #3e3c3c;
+  font-weight: 600;
+}
+
+#Navbar .burgerMenu ul > li a:hover {
+  color: #57a00f;
+}
+
+#Navbar .kecid ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  border-left: 1px solid lightgray;
+}
+
+#Navbar .kecid ul > li {
+  padding: 0 15px;
+}
+
+#Navbar .kecid ul > li > a {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  padding-top: 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#Navbar .kecid ul > li > a:hover {
+  color: #57a00f;
+  border-top: 1px solid #57a00f;
+}
+
+#Navbar .navtext {
+  padding-left: 80px;
+  border-left: 1px solid lightgray;
+  height: 25px;
+}
+
+#Navbar .navtext > span {
+  font-weight: 600;
+  font-size: 15px;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding-left: 10px;
+}
+
+.bgmain {
+  width: 100%;
+  position: relative;
+}
+
+.bgmain .bgimg img {
+  width: 100%;
+  height: 300px;
+}
+
+.bgmain .bgtext {
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  top: 100px;
+  left: 770px;
+  text-align: center;
+}
+
+.bgmain .bgtext .elements {
+  font-size: 20px;
+  color: #57a00f;
+}
+
+.hep {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-left: 90px;
+  border-bottom: 1px solid lightgray;
+}
+
+.hep p {
+  padding: 18px 5px;
+}
+
+.imgicon1 {
+  width: 100%;
+  position: relative;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.imgicon1 .img1 {
+  opacity: 1;
+  position: absolute;
+}
+
+.imgicon1 .img1 > img {
+  height: 400px;
+  width: 100%;
+}
+
+.imgicon1:hover .img1 {
+  opacity: 0;
+}
+
+.imgicon1 .img2 {
+  opacity: 0;
+}
+
+.imgicon1 .img2 > img {
+  width: 100%;
+  height: 400px;
+}
+
+.imgicon1:hover .img2 {
+  opacity: 1;
+}
+
+.imgicon1:hover .selects {
+  opacity: 1;
+}
+
+.imgicon2 {
+  width: 100%;
+  position: relative;
+}
+
+.imgicon2 .img1 {
+  opacity: 1;
+  position: absolute;
+}
+
+.imgicon2 .img1 > img {
+  width: 100%;
+  height: 300px;
+}
+
+.imgicon2:hover .img1 {
+  opacity: 0;
+}
+
+.imgicon2 .img2 {
+  opacity: 0;
+}
+
+.imgicon2 .img2 > img {
+  width: 100%;
+  height: 300px;
+}
+
+.imgicon2:hover .img2 {
+  opacity: 1;
+}
+
+.columntext {
+  margin: 40px 0;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.imgicon1 {
+  position: relative;
+}
+
+.imgicon1 .selects {
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  width: 420px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.imgicon1 .selects .select p {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+  color: #57a00f;
+  position: absolute;
+  width: 210px;
+  height: 60px;
+  background-color: white;
+  border: 1px solid;
+  border: none;
+  top: 345px;
+  -webkit-transform: translateX(-108px);
+          transform: translateX(-108px);
+}
+
+.imgicon p {
+  color: gray;
+}
+
+.womentext {
+  text-align: center;
+}
+
+.womentext b {
+  font-weight: 500;
+}
+
+.womentext .money {
+  color: #57a00f;
+  font-size: 20px;
+}
+
+.svgss {
+  text-align: center;
+}
+
+.svgss .bi-star {
+  color: #eeee16;
+  cursor: pointer;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0%;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */
